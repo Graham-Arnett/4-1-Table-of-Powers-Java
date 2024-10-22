@@ -1,0 +1,10 @@
+package squarescubes;
+
+public class Squarescubescalc {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

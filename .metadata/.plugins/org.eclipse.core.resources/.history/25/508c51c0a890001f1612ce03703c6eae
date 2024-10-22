@@ -1,0 +1,22 @@
+package squarescubes;
+import java.util.Scanner;
+
+public class Squarescubescalc {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to the Squares and Cubes table");
+		Scanner scanner = new Scanner(System.in);
+		String choice;
+		
+		do 
+		{
+			System.out.print("Enter an integer: ");
+			int entry = scanner.nextInt();
+			
+			System.out.println("Number\tSquared\tCubed");
+			
+			choice = scanner.next();
+		}while(choice.equalsIgnoreCase("y"));
+	}
+
+}
